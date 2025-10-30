@@ -45,17 +45,17 @@ The Icing Room  is a fully responsive e-commerce website for a premium cake shop
 ## 📚 What I Learned
 * Built complete frontend architecture from scratch
  
-*Mastered CSS Grid & Flexbox for complex layouts
+* Mastered CSS Grid & Flexbox for complex layouts
 
-*Optimized performance without framework overhead
+* Optimized performance without framework overhead
 
-*Implemented mobile-first responsive design
+* Implemented mobile-first responsive design
 
-*Created secure authentication patterns
+* Created secure authentication patterns
 
-*Developed e-commerce functionality
+* Developed e-commerce functionality
 
-*Applied real-world business requirements
+* Applied real-world business requirements
 
 
 
