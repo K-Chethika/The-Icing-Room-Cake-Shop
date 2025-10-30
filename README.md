@@ -17,3 +17,17 @@ The Icing Room  is a fully responsive e-commerce website for a premium cake shop
 
 🔐 User authentication system (Login/Register/Reset)
 
+## 💫 Technical Stack
+*Frontend: HTML5, CSS3, JavaScript
+
+*Styling: CSS Grid, Flexbox, CSS Variables
+
+*Icons: Font Awesome
+
+*Design: Mobile-first, Responsive
+
+*Features: E-commerce, User Authentication
+## 🖼️ Screenshots
+Register Page
+<img width="1896" height="846" alt="image" src="https://github.com/user-attachments/assets/78830a7a-f357-4c81-b9f5-bcea2f3189d7" />
+
