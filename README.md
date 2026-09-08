@@ -222,13 +222,23 @@ The chatbot provides a conversational way for customers to interact with the web
 <p align="center">
   <img src="https://raw.githubusercontent.com/K-Chethika/The-Icing-Room-Cake-Shop/main/images/Home.jpg" width="900">
 </p>
+### 🔐 Login
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/K-Chethika/The-Icing-Room-Cake-Shop/main/images/login.jpg" width="900">
+</p>
+
+### 📝 Registration
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/K-Chethika/The-Icing-Room-Cake-Shop/main/images/signup.jpg" width="900">
+</p>
 
 ###  📖 About Page
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/K-Chethika/The-Icing-Room-Cake-Shop/main/images/about.jpg" width="900">
 </p>
-
 
 ### 🎂 Cake Collection
 
@@ -242,17 +252,6 @@ The chatbot provides a conversational way for customers to interact with the web
   <img src="https://raw.githubusercontent.com/K-Chethika/The-Icing-Room-Cake-Shop/main/images/chatbot.jpg" width="900">
 </p>
 
-### 🔐 Login
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/K-Chethika/The-Icing-Room-Cake-Shop/main/images/login.jpg" width="900">
-</p>
-
-### 📝 Registration
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/K-Chethika/The-Icing-Room-Cake-Shop/main/images/signup.jpg" width="900">
-</p>
 
 ---
 
