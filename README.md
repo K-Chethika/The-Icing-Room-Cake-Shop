@@ -1,260 +1,312 @@
-# 🎂 The Icing Room — Cake Shop
+# 🎂 The Icing Room – Cake Shop
 
-> A modern and fully responsive e-commerce website designed for a premium cake shop, featuring an elegant user interface, product catalog, authentication pages, interactive forms, and a mobile-first design.
+A modern and responsive **cake shop e-commerce website** with an integrated **AI-powered chatbot** designed to provide customers with an engaging and helpful online cake-shopping experience.
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Responsive](https://img.shields.io/badge/Design-Responsive-success?style=for-the-badge)]()
+The **Icing Room** allows customers to browse cakes, explore the shop, interact with authentication features, and communicate with an AI chatbot for assistance.
 
 ---
 
-## 🍰 About The Project
-
-**The Icing Room** is a modern cake-shop e-commerce website created to provide customers with an attractive and user-friendly online experience.
-
-The website focuses on **responsive design, clean UI, interactive forms, product presentation, and intuitive navigation**. It is designed using vanilla **HTML, CSS, and JavaScript**, without relying on a frontend framework.
-
-The project demonstrates how a complete frontend experience can be built from scratch using core web technologies.
-
----
-
-## ✨ Features
+## 🌟 Features
 
 ### 🏠 Home Page
 
-* Attractive cake-shop landing page
-* Modern visual presentation
-* Smooth navigation
-* Responsive layout
+* Attractive hero section
+* Featured cake products
+* Easy navigation
+* Call-to-action sections
+* Modern cake-shop design
 
-### 🎂 Product Catalog
+### 🎂 Cake Product Catalog
 
-* Display cake products
-* Product information and pricing
-* LKR-based pricing
-* E-commerce-style product presentation
+* Browse different cake products
+* Display cake images and prices
+* Prices displayed in **Sri Lankan Rupees (LKR)**
+* Attractive product cards
+* Organized product presentation
+
+### 🤖 AI-Powered Chatbot
+
+The website includes an **AI-powered customer support chatbot** that helps users interact with the cake shop.
+
+The chatbot can:
+
+* Answer customer questions
+* Provide information about cakes
+* Help users explore available products
+* Respond to customer requests
+* Provide a conversational shopping experience
+
+The chatbot is connected to the **Google Gemini API** to generate AI-powered responses.
 
 ### 🔐 User Authentication
 
 * User registration
-* Login page
-* Forgot password page
+* User login
+* Forgot password functionality
 * Form validation
 * User-friendly authentication interface
 
+### 📖 About Us
+
+* Information about The Icing Room
+* Brand-focused presentation
+* Clean and informative layout
+
 ### 📱 Responsive Design
 
-* Mobile-first approach
-* Desktop and mobile compatibility
-* CSS Grid layouts
-* Flexbox layouts
-* Responsive navigation
+The website is responsive and designed to work across:
 
-### 🎨 Modern UI
+* 💻 Desktop
+* 💻 Laptop
+* 📱 Tablet
+* 📱 Mobile
 
-* Clean and elegant visual design
-* CSS animations
-* Smooth transitions
-* CSS variables
-* Modern spacing and typography
+### ✨ UI/UX
 
-### 📝 Interactive Forms
-
-* User input forms
-* Validation
-* Real-time feedback
-* Structured form layouts
+* Modern and clean interface
+* Smooth animations
+* Responsive layouts
+* CSS Grid and Flexbox
+* Consistent typography and spacing
+* User-friendly navigation
 
 ---
 
-## 🖼️ Screenshots
+## 🛠️ Technologies Used
 
-### 🔐 Register Page
-
-![Register Page](screenshots/register.png)
-
-### 🔑 Login Page
-
-![Login Page](screenshots/login.png)
-
-### 🔄 Forgot Password
-
-![Forgot Password](screenshots/forgot-password.png)
-
-### 🍰 About Us
-
-![About Us](screenshots/about.png)
-
-> **Note:** Replace the screenshot paths above with the actual image paths in your repository if the filenames are different.
+| Technology            | Purpose                       |
+| --------------------- | ----------------------------- |
+| **HTML5**             | Website structure             |
+| **CSS3**              | Styling and responsive design |
+| **JavaScript**        | Frontend interactivity        |
+| **Node.js**           | Backend runtime               |
+| **Express.js**        | Backend/server framework      |
+| **Google Gemini API** | AI chatbot                    |
+| **CSS Grid**          | Responsive layouts            |
+| **Flexbox**           | Component alignment           |
+| **Font Awesome**      | Icons                         |
+| **Git & GitHub**      | Version control               |
 
 ---
 
-## 🛠️ Tech Stack
+## 🧠 AI Chatbot Architecture
 
-| Technology           | Purpose                              |
-| -------------------- | ------------------------------------ |
-| 🌐 HTML5             | Website structure                    |
-| 🎨 CSS3              | Styling and responsive layouts       |
-| ⚡ JavaScript         | Interactivity and form functionality |
-| 📐 CSS Grid          | Page and component layouts           |
-| 📦 Flexbox           | Responsive component alignment       |
-| 🎯 CSS Variables     | Consistent styling                   |
-| ⭐ Font Awesome       | Icons                                |
-| 📱 Responsive Design | Mobile, tablet, and desktop support  |
+The chatbot uses a simple client-server architecture.
+
+```text
+┌───────────────────────┐
+│       Customer        │
+│                       │
+│  Sends message to AI  │
+└───────────┬───────────┘
+            │
+            ▼
+┌───────────────────────┐
+│      Frontend         │
+│   HTML / CSS / JS     │
+└───────────┬───────────┘
+            │
+            ▼
+┌───────────────────────┐
+│     Express.js        │
+│       Backend         │
+└───────────┬───────────┘
+            │
+            ▼
+┌───────────────────────┐
+│   Google Gemini API   │
+│     AI Response       │
+└───────────┬───────────┘
+            │
+            ▼
+┌───────────────────────┐
+│    Chatbot Response   │
+│       to Customer     │
+└───────────────────────┘
+```
+
+The API key is stored securely using environment variables rather than being exposed directly in the frontend code.
 
 ---
 
-## 🏗️ Project Structure
+## 📂 Project Structure
 
 ```text
 The-Icing-Room-Cake-Shop/
 │
-├── 📄 new.html
-├── 🎨 style.css
-└── 📖 README.md
+├── public/
+│   ├── index.html
+│   ├── style.css
+│   └── ...
+│
+├── server.js
+├── package.json
+├── .env
+├── .gitignore
+└── README.md
 ```
 
-### `new.html`
-
-Contains the website structure, pages, forms, product sections, and user interface elements.
-
-### `style.css`
-
-Contains the complete styling system, including:
-
-* Responsive layouts
-* CSS Grid
-* Flexbox
-* Animations
-* Transitions
-* Colors and typography
-* Component styling
-* Mobile layouts
-
----
-
-## 🔄 User Experience Flow
-
-```text
-                    ┌─────────────────┐
-                    │    Home Page    │
-                    └────────┬────────┘
-                             │
-             ┌───────────────┼───────────────┐
-             │               │               │
-             ▼               ▼               ▼
-          About          Products       Authentication
-                                             │
-                                      ┌──────┴──────┐
-                                      │             │
-                                      ▼             ▼
-                                   Register       Login
-                                                     │
-                                                     ▼
-                                               User Access
-```
+> The project structure may change as new features are added.
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
-
-No additional frameworks or package managers are required.
-
-You only need:
-
-* A modern web browser
-* A code editor such as VS Code
-
----
-
-### 1️⃣ Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/K-Chethika/The-Icing-Room-Cake-Shop.git
 ```
 
-### 2️⃣ Navigate to the Project
+### 2. Navigate to the Project
 
 ```bash
 cd The-Icing-Room-Cake-Shop
 ```
 
-### 3️⃣ Open the Website
+### 3. Install Dependencies
 
-Open:
-
-```text
-new.html
+```bash
+npm install
 ```
 
-in your preferred web browser.
+### 4. Configure the Environment Variables
 
-You can also use **VS Code Live Server** for a better development experience.
+Create a `.env` file in the project root:
 
----
+```env
+GEMINI_API_KEY=your_gemini_api_key
+```
 
-## 💻 Development Highlights
+**Important:** Never upload your `.env` file or expose your Gemini API key publicly.
 
-This project demonstrates practical frontend development skills including:
+### 5. Start the Server
 
-* Building a website from scratch
-* Structuring multi-section web pages
-* Creating responsive layouts
-* Working with CSS Grid and Flexbox
-* Creating interactive forms
-* Implementing client-side validation
-* Designing reusable UI patterns
-* Creating smooth animations and transitions
-* Developing mobile-first interfaces
+```bash
+node server.js
+```
 
----
-
-## 🧠 What I Learned
-
-Through this project, I strengthened my understanding of:
-
-* **HTML5 semantic structure**
-* **CSS3 advanced layouts**
-* **Responsive web design**
-* **CSS Grid & Flexbox**
-* **JavaScript fundamentals**
-* **Form validation**
-* **UI/UX principles**
-* **Mobile-first development**
-* **Frontend project organization**
-* **Building real-world e-commerce interfaces**
-
----
-
-## 📌 Project Highlights
+The application will run locally at:
 
 ```text
-🎂 Premium Cake Shop Interface
-🛒 E-Commerce Product Catalog
-🔐 Authentication UI
-📱 Fully Responsive Design
-🎨 Modern UI/UX
-⚡ Vanilla JavaScript
-📐 CSS Grid & Flexbox
-📝 Interactive Forms
-✨ CSS Animations
-💰 LKR Pricing
+http://localhost:3000
 ```
+
+---
+
+## 💬 Chatbot Example
+
+A customer can interact with the chatbot to ask questions such as:
+
+```text
+Customer:
+What cakes do you have?
+
+AI:
+We have a variety of cakes available.
+You can explore our cake collection and choose
+your favorite one.
+```
+
+The chatbot provides a conversational way for customers to interact with the website.
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+
+```text
+![Home Page](screenshots/home.png)
+```
+
+### 🎂 Cake Collection
+
+```text
+![Cake Collection](screenshots/cakes.png)
+```
+
+### 🤖 AI Chatbot
+
+```text
+![AI Chatbot](screenshots/chatbot.png)
+```
+
+### 🔐 Login
+
+```text
+![Login](screenshots/login.png)
+```
+
+### 📝 Registration
+
+```text
+![Registration](screenshots/register.png)
+```
+
+---
+
+## 📚 What I Learned
+
+Through this project, I gained practical experience in:
+
+* Building a complete responsive website
+* Developing frontend interfaces using HTML, CSS, and JavaScript
+* Creating responsive layouts using CSS Grid and Flexbox
+* Building a Node.js and Express.js backend
+* Integrating the **Google Gemini API**
+* Developing an AI-powered chatbot
+* Working with REST API requests
+* Handling environment variables securely
+* Implementing authentication interfaces
+* Creating an e-commerce-style product catalog
+* Improving UI/UX
+* Using Git and GitHub for version control
+
+---
+
+## 🔮 Future Improvements
+
+Possible future enhancements include:
+
+* 🛒 Shopping cart
+* 💳 Online payment integration
+* 📦 Order management
+* 🚚 Order tracking
+* 👤 Customer profiles
+* ⭐ Customer reviews and ratings
+* 🔎 Product search and filtering
+* 🧁 Custom cake ordering
+* 📊 Admin dashboard
+* 🤖 Improved AI cake recommendations
+* 💬 More advanced AI customer support
+* 🗄️ Database integration
+
+---
+
+## 🎯 Project Goals
+
+The main goals of this project are to:
+
+1. Create a professional online platform for a cake shop.
+2. Provide customers with an easy way to browse cakes.
+3. Provide an interactive AI-powered customer support experience.
+4. Practice frontend and backend web development.
+5. Learn how to integrate generative AI into a real-world application.
+6. Build a project suitable for a software engineering portfolio.
 
 ---
 
 ## 👩‍💻 Author
 
-### Kavindi Chethika
+**Kavindi Chethika**
 
-**Software Engineering Undergraduate | Aspiring AI Engineer**
+Software Engineering Undergraduate
+Sri Lanka
 
-**GitHub:** [K-Chethika](https://github.com/K-Chethika)
+### GitHub
 
-**LinkedIn:** [Kavindi Chethika](https://www.linkedin.com/in/kavindichethika/)
+https://github.com/K-Chethika
 
 ---
 
@@ -266,4 +318,4 @@ If you like this project, consider giving the repository a ⭐ on GitHub!
 
 ## 📄 License
 
-This project was created for educational and portfolio purposes.
+This project was created for **educational and portfolio purposes**.
