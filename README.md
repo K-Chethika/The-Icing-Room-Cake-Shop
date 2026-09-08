@@ -219,9 +219,9 @@ The chatbot provides a conversational way for customers to interact with the web
 
 ### 🏠 Home Page
 
-```text
-![Home Page](screenshots/home.png)
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/K-Chethika/The-Icing-Room-Cake-Shop/main/images/Home.jpg" width="900">
+</p>
 
 ### 🎂 Cake Collection
 
