@@ -52,14 +52,6 @@ The chatbot is connected to the **Google Gemini API** to generate AI-powered res
 * Brand-focused presentation
 * Clean and informative layout
 
-### 📱 Responsive Design
-
-The website is responsive and designed to work across:
-
-* 💻 Desktop
-* 💻 Laptop
-* 📱 Tablet
-* 📱 Mobile
 
 ### ✨ UI/UX
 
@@ -265,24 +257,6 @@ Through this project, I gained practical experience in:
 
 ---
 
-## 🔮 Future Improvements
-
-Possible future enhancements include:
-
-* 🛒 Shopping cart
-* 💳 Online payment integration
-* 📦 Order management
-* 🚚 Order tracking
-* 👤 Customer profiles
-* ⭐ Customer reviews and ratings
-* 🔎 Product search and filtering
-* 🧁 Custom cake ordering
-* 📊 Admin dashboard
-* 🤖 Improved AI cake recommendations
-* 💬 More advanced AI customer support
-* 🗄️ Database integration
-
----
 
 ## 🎯 Project Goals
 
